@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Alerts</title>
+</head>
+<body>
+    <div class="container">
+        <h2>alters</h2>
+        <div class="alert alert-success">
+            <strong>success!</strong>This alert box could indicate a successful or positive action.
+        </div>   
+        <div class="alert alert-info">
+            <strong>Info!</strong> <a href="#" class="alert-link"> This alert box could indicate a neutral informative change or action.</a>
+          </div> 
+          <div class="alert alert-warning alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+          </div>
+          <div class="alert alert-secondary alert-dismissible fade show">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Secondary!</strong> Indicates a slightly less important action.
+          </div>
+    </div>
+</body>
+</html>
+
+
+<!-- 경고 메시지를 만들기 위해서는 alert를 이용한다. link를 주고 싶을때는 <a>태크 안 href에 가고 싶은 주소를 입력하고 class="alert-link" 추가하면 되고
+경고 메시지를 삭제하는 버튼을 만들고 싶으면 alert-dismissible을 추가하고 <button></button> 태그를 주가하고 그 안에 data-dismiss="alert"를 넣어주면 삭제버튼을 눌렀을때 삭제할 수 있다..
+alert-dismissible에 fade show를 추가하면 사라질때 그림자 효과를 주면서 사라진다
+-->

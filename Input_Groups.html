@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Input Group </title>
+</head>
+
+<body>
+
+    <!-- input태그를 뒤에 쓰고 div class에 prepend를 추가한다.-->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text">Firstname</span>
+            <span class="input-group-text">Lastname</span>
+        </div>
+        <input text="text" class="form-control" placeholder="First-Username">
+        <input text="text" class="form-control" placeholder="Last-Username">
+    </div>
+
+
+    <div class="input-group mb-3">
+        <input text="text" class="form-control" placeholder="Your Email">
+        <div class="input-group-append">
+            <span class="input-group-text">@naver.com</span>
+        </div>
+
+
+        <!-- span태그 대신에 button태그를 추가하면 버튼을 만들수 있따..-->
+        <div class="input-group mb-3">
+            <input text="text" class="form-control" placeholder="Your Email">
+            <div class="input-group-append">
+                <button class="btn-info" type="submit">go</button>
+            </div>
+        </div>
+</body>
+
+</html>
+
+<!-- .input-group입력 필드 앞이나 뒤에 아이콘, 텍스트 또는 버튼을 "도움말 텍스트"로 추가하여 입력을 향상시키는 컨테이너입니다.
+
+.input-group-prepend입력 앞에 도움말 텍스트를 추가하고 .input-group-append입력 뒤에 추가하는 데 사용합니다 . -->
+
+<!-- .input-group.text를 사용합니다 -->
